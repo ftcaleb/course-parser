@@ -9,3 +9,4 @@ async function run() {
 }
 
 run();
+// npx tsx scripts/runConvert.ts 
