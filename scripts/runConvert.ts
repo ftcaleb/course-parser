@@ -2,7 +2,7 @@ import { convertCourseDoc } from "./convertCourseDoc";
 
 async function run() {
     const course = await convertCourseDoc(
-        "./docs/Public Procurement Policy Framework Act (PPPFA).docx"
+        "./docs/SHI Bar  Beverage Service  Mixology.docx"
     );
 
     console.log(JSON.stringify(course, null, 2));
